@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/ejemplo/calculadora/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/ejemplo/calculadora/MainActivity.kt b/app/src/main/java/com/ejemplo/calculadora/MainActivity.kt
+--- a/app/src/main/java/com/ejemplo/calculadora/MainActivity.kt	
++++ b/app/src/main/java/com/ejemplo/calculadora/MainActivity.kt	(date 1676398955369)
+@@ -32,7 +32,7 @@
+ 
+             //binding.resultado.text = suma.resultado.toString()
+             binding.resultado.text = resultado.toString()
+-            Todal.makeText(this," tu valor es {$resultado}",Todal.LENGTH_SHORT).show()
++            //Toast.makeText(this," tu valor es {$result}",Toast.LENGTH_SHORT).show()
+ 
+ 
+         }
